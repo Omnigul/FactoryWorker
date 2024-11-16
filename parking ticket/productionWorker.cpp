@@ -72,12 +72,12 @@ void productionWorker::setEmpName(string name)
 	employee::setEmpName(name);
 }
 
-void productionWorker::setEmpNumber(int num)
+void productionWorker::setEmpNum(int num)
 {
 	employee::setEmpNum(num);
 }
 
-void productionWorker::setHireDate(int month, int day, int year)
+void productionWorker::setEmpHireDate(int month, int day, int year)
 {
 	employee::setEmpHireDate(month, day, year);
 }
