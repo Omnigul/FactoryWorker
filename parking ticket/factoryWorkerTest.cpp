@@ -1,26 +1,26 @@
 #include <iostream>
-#include "employee.h"
+#include "productionWorker.h"
 
 using namespace std;
 
 
 int main()
 {
-    employee test;
+    productionWorker testPW1;
+    productionWorker testPW2;
 
-    string testName;
-    int testNum;
-    int testDay;
-    int testMonth;
-    int testYear;
+    testPW1.setEmpName("Paul Jones");
+    testPW1.setEmpNumber(12345);
+    testPW1.setHireDate(10, 28, 2024);
+    testPW1.setShift(1);
+    testPW1.setPayRate(20.25);
 
-    test.setEmpName("Joe Dude");
-    test.setEmpNum(12345);
-    test.setEmpHireDate(3, 5, 2015);
-    testName = test.getEmpName();
-    testNum = test.getEmpNum();
-    test.getHireDate(testDay, testMonth, testYear);
-    test.showEmpData();
+    testPW2.setEmpName("Harriet Smith"); 
+    testPW2.setEmpNumber(54321); 
+    testPW2.setHireDate(6, 15, 2024); 
+    testPW2.setShift(2);
+    testPW2.setPayRate(25.50); 
 
-    cout << testName << endl << testNum << endl << testDay << "/" << testMonth << "/" << testYear << endl;
+    testPW1.showEmpData();
+    testPW2.showEmpData();
 }

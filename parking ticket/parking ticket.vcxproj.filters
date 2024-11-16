@@ -21,9 +21,15 @@
     <ClCompile Include="factoryWorkerTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="productionWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="employee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="productionWorker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
