@@ -196,5 +196,5 @@ void employee::getHireDate(int& month, int& day, int& year)
 void employee::showEmpData()
 {
 	cout << fixed << setprecision(2) << "Name: " << empName << endl << "Employee Number: " << empNum << endl
-		<< "Hire Date: " << hireMonth << "/" << hireDay << "/" << hireYear << endl;
-}
+		<< "Hire Date: " << hireMonth << "/" << hireDay << "/" << hireYear << endl; 
+} 

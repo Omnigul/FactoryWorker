@@ -13,7 +13,7 @@ public:
 	void setEmpNum(int number);
 	// takes three ints and assigns the hireDay, hireMonth and hireYear to them. it validates the day based on month, 
 	// the month to ensure it stays in range, and the year to check if it is after 1960(i just put it because it seems a reasonable cutoff)
-	void setEmpHireDate(int month, int day, int year);
+	void setEmpHireDate(int month, int , int year);
 	// returns empName
 	string getEmpName();
 	//returns empNum

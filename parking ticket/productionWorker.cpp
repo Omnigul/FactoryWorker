@@ -64,7 +64,7 @@ void productionWorker::showEmpData()
 	}
 	
 	employee::showEmpData();
-	cout << fixed << setprecision(2) << "Shift: " << tempShift << endl << "Hourly Pay Rate: $" << payRate << endl;
+	cout << fixed << setprecision(2) << "Shift: " << tempShift << endl << "Hourly Pay Rate: $" << payRate << endl << endl;
 }
 
 void productionWorker::setEmpName(string name)
