@@ -132,9 +132,11 @@
     <ClCompile Include="factoryWorkerTest.cpp" />
     <ClCompile Include="productionWorker.cpp" />
     <ClCompile Include="shiftSupervisor.cpp" />
+    <ClCompile Include="teamLeader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="employee.h" />
+    <ClInclude Include="teamLeader.h" />
     <ClInclude Include="productionWorker.h" />
     <ClInclude Include="shiftSupervisor.h" />
   </ItemGroup>

@@ -56,5 +56,5 @@ double shiftSupervisor::getBonus()
 void shiftSupervisor::showEmpData()
 {
 	employee::showEmpData();
-	cout << fixed << setprecision(2) << "Annual Salary: $" << salary << endl << "Annual Bonus: $" << bonus << endl << endl;
+	cout << fixed << setprecision(2) << "Annual Salary: $" << salary << endl << "Annual Bonus: $" << bonus << endl;
 }
